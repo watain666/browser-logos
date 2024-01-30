@@ -1,0 +1,139 @@
+repo_name: watain666/browser-logos
+report_id: 97057469b0e11762d103e647c13647bd
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-30T02:18:41+00:00'
+requested_by: alrra
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/watain666/browser-logos/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Cătălin Mariș
+  last_updated_on: 2019-08-17 14:02:37.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/watain666/browser-logos
+  detection_source: Repo Metadata
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/watain666/browser-logos/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Cătălin Mariș
+  last_updated_on: 2019-09-05 14:22:59.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/watain666/browser-logos/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Cătălin Mariș
+  last_updated_on: 2016-09-01 16:09:05.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/watain666/browser-logos/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Cătălin Mariș
+  last_updated_on: 2014-10-19 22:49:14.000000000 Z
+- name: "@octokit/rest"
+  description: GitHub REST API client for Node.js
+  package_url: https://www.npmjs.com/@octokit/rest
+  version: 16.28.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: https://github.com/watain666/browser-logos/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cătălin Mariș
+  last_updated_on: 2019-09-05 14:22:59.000000000 Z
+- name: inquirer
+  description: A collection of common interactive command line user interfaces
+  package_url: https://www.npmjs.com/inquirer
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/watain666/browser-logos/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cătălin Mariș
+  last_updated_on: 2019-08-25 00:08:53.000000000 Z
+- name: listr
+  description: Terminal task list
+  package_url: https://www.npmjs.com/listr
+  version: 0.14.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17782/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source_url: https://github.com/watain666/browser-logos/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cătălin Mariș
+  last_updated_on: 2019-03-08 19:17:58.000000000 Z
+- name: shelljs
+  description: Portable Unix shell commands for Node.js
+  package_url: https://www.npmjs.com/shelljs
+  version: 0.8.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/watain666/browser-logos/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cătălin Mariș
+  last_updated_on: 2019-03-08 19:17:58.000000000 Z
+  vulnerabilities:
+  - name: Improper Privilege Management in shelljs
+    cve_id: CVE-2022-0144
+    cve_url: https://github.com/advisories/GHSA-4rq4-32rv-6wp6
+    detected_date: Jan 22
+    severity: high
+    first_patched: 0.8.5
+  - name: Improper Privilege Management in shelljs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-64g7-mvw6-v9qj
+    detected_date: Jan 15
+    severity: moderate
+    first_patched: 0.8.5
